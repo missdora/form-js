@@ -4,10 +4,13 @@ rely on **jQuery**
 version 0.0.1
 ## Overview
 写个表单老是要写一堆HTML有么有
+
 现在写一个简单的配置就可以输出啦
+
 只做HTML输出 ，不绑定任何事件
 
 Output form html by some simple config
+
 No events on these html
 
 ### Supports
