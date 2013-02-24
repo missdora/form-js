@@ -83,10 +83,37 @@ then you'll see
 ```
 <table>
   <tbody>
-    <tr><td><label>Name:</label></td><td><input type="text" value="" class="name_text" name="name"></td></tr>
-    <tr><td><label>Gender:</label></td><td><p><label><input type="radio" class="gender_radio" name="gender" value="f"><span>Femal</span></label></p><p><label><input type="radio" class="gender_radio" name="gender" value="m"><span>Male</span></label></p><p><label><input type="radio" class="gender_radio" name="gender" value="z" checked=""><span>not Female either Male</span></label></p></td></tr>
-    <tr><td><label>Hobbies:</label></td><td><p><label><input type="checkbox" class="hobby_checkbox" name="hobby" value="r" checked=""><span>reading</span></label></p><p><label><input type="checkbox" class="hobby_checkbox" name="hobby" value="d"><span>dancing</span></label></p></td></tr>
-    <tr><td><label>City:</label></td><td><select name="city" class="city_select"><option value="0">Hangzhou</option><option value="1">Zhoushan</option><option value="2" selected="">Taiwan</option></select></td></tr>
+    <tr>
+      <td><label>Name:</label></td>
+      <td>
+        <input type="text" value="" class="name_text" name="name">
+      </td>
+    </tr>
+    <tr>
+      <td><label>Gender:</label></td>
+      <td>
+        <p><label><input type="radio" class="gender_radio" name="gender" value="f"><span>Femal</span></label></p>
+        <p><label><input type="radio" class="gender_radio" name="gender" value="m"><span>Male</span></label></p>
+        <p><label><input type="radio" class="gender_radio" name="gender" value="z" checked=""><span>not Female either Male</span></label></p>
+      </td>
+    </tr>
+    <tr>
+      <td><label>Hobbies:</label></td>
+      <td>
+        <p><label><input type="checkbox" class="hobby_checkbox" name="hobby" value="r" checked=""><span>reading</span></label></p>
+        <p><label><input type="checkbox" class="hobby_checkbox" name="hobby" value="d"><span>dancing</span></label></p>
+      </td>
+    </tr>
+    <tr>
+      <td><label>City:</label></td>
+      <td>
+        <select name="city" class="city_select">
+          <option value="0">Hangzhou</option>
+          <option value="1">Zhoushan</option>
+          <option value="2" selected="">Taiwan</option>
+        </select>
+      </td>
+    </tr>
   </tbody>
 </table>
 ```
